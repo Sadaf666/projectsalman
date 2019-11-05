@@ -4,7 +4,7 @@ var schema = mongoose.Schema;
 var developerschema = new schema({
     name: {
         type: String,
-        required: [true, "Name is requiered."] //validation
+        required: [true, "Name is requiered."] 
     },
     age: {
         type: Number,
@@ -13,7 +13,7 @@ var developerschema = new schema({
     },
     email_Address: {
         type: String,
-        required: [true, "Email is required."], // Validation
+        required: [true, "Email is required."], 
         unique: true
     },
     phone_no: {
